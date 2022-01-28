@@ -10,6 +10,13 @@ body{
 }
 /*------navigation bar------*/
 .header{
+    position:relative;
+    top: 0; left: 0;right: o;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem 9%;
 }
 .container{
     max-width: 100%;
@@ -64,3 +71,27 @@ nav ul li {
 .bmember{
     margin-left: 40px;
 }
+.bunner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	flex-wrap: wrap;
+	justify-content:  space-around; 
+    margin-top: 15%;
+}
+.col-1{
+    flex-basis: 50%;
+	min-width: 300px;
+}
+.col-1 h2{
+        font-size:65px;
+        line-height: 60px;
+        margin: 25px 0;
+}
+.col-1 p{
+    font-size:25px;
+    line-height: 40px;
+    margin: 25px 0;
+    justify-content: center;
+}
+
