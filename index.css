@@ -10,18 +10,15 @@ body{
 }
 /*------navigation bar------*/
 .header{
-    position:relative;
-    top: 0; left: 0;right: o;
-    z-index: 1000;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 2rem 9%;
+    background-image: url("./images/hero-cover.3.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: auto;
 }
 .container{
-    max-width: 100%;
-	margin: auto;
-	padding-right: 25px;
+    height: 100%;
+   
 }
 .navbar{
     display: flex; 
