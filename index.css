@@ -353,6 +353,12 @@ font-size: 30px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.row-1:hover{
+    transform: translateY(-15px);
+     transition: transfom.3s;
+     background-color: #252b42;
+     color: #fff;
+}
 .fa-icons ul{
     list-style-type: none;
 }
