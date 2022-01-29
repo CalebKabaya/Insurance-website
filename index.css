@@ -437,7 +437,7 @@ font-size: 30px;
     justify-content: space-around;
 }
 .contact h2{
-    font-size: 25px;
+    font-size: 35px;
     padding: 20px;
     text-align: center;
 }
@@ -450,7 +450,7 @@ font-size: 30px;
     padding-bottom: 30px;
 }
 form{
-    margin: 40px;
+    margin: 20px;
 }
 label{
     font-size: 29px;
@@ -470,7 +470,7 @@ label{
     justify-content: center;
     color: white;
     background: rgb(36, 166, 240);
-    margin: 50px;
+    margin: 35px;
     width: 100%;
 
 }
@@ -478,4 +478,9 @@ label{
     background-color: rgb(110, 173, 224);
     transition: 1s;
 }
+input[type=text] {
+    width: 100%;
+    margin: 12px 0;
+    box-sizing: border-box;
+ }
 
