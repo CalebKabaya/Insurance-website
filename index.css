@@ -397,6 +397,11 @@ font-size: 30px;
     transition: 1s;
 }
 /*-----branches------*/
+.branches{
+    padding: 40px;
+    height: 150vh;
+
+}
 .sub-branch{
     display: flex;
     background:#252b42 ;
@@ -477,6 +482,7 @@ label{
 .contact button:hover{
     background-color: rgb(110, 173, 224);
     transition: 1s;
+    color: black;
 }
 input[type=text] {
     width: 100%;
@@ -528,11 +534,12 @@ input[type=text] {
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(36, 166, 240);
+    color: white;
 }
 .row-5 button:hover{
     background: rgb(36, 166, 240);
     transition: 1s;
-    color: white;
+    color:black;
 }
 .last-footer{
     display: flex;
@@ -543,12 +550,16 @@ input[type=text] {
 }
 .icons-footer .fa{
     color:rgb(36, 166, 240) ;
-font-size: 40px;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 30px;
+
 }
 .icons-footer{
     justify-content: space-evenly;
 }
 .last-footer h2{
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(68, 64, 64);
+    padding-top: 20px;
 }
