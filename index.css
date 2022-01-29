@@ -159,4 +159,39 @@ nav .fa{
         font-size: 30px;
     }
 }
-
+/*-----services--------*/
+.container-3{
+    display: flex;
+        margin: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: -160px;
+        z-index: 2;
+}
+.col-3{
+    flex: 1;
+    border: 1px solid #666;
+    margin: 70px;
+    padding: 60px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.col-3:hover{
+    background: rgb(36, 166, 240);
+	transform: translateY(-15px);
+	 transition: transfom.3s;
+}
+.col-3 p{
+	font-size: 20px;
+	margin: 12px 0;
+	color: rgb(49, 46, 46);
+}
+.col-3 h2{
+	font-weight: 600;
+	color: rgb(3, 0, 0);
+	font-size: 39px;
+}
