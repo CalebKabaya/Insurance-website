@@ -396,3 +396,11 @@ font-size: 30px;
 .button-2 .btn:hover{
     transition: 1s;
 }
+.branches{
+    display: flex;
+    background:#252b42 ;
+    justify-content: space-around;
+}
+.col-10 h2,p{
+    color: white;
+}
