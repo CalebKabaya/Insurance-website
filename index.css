@@ -309,7 +309,7 @@ justify-content: space-around;
 margin: 100px;
 display: flex;
 justify-content: space-between;
-background-image: linear-gradient(to right, #004bf6, #9c28d4, #cd00ab, #e40082, #eb125e);
+background-image: linear-gradient(to right, #143072, #9c28d4, #cd00ab, #e40082, #eb125e);
 }
 .subscribe .news{
 align-self: flex-start;
@@ -320,8 +320,9 @@ font-size: 30px;
 }
 .email h3{
     background:rgb(36, 166, 240);
-    padding: 15px;
+    padding: 20px;
     color:#fff;
+    font-weight: lighter;
 }
 .news h2{
     font-size: 36px;
