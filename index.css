@@ -525,13 +525,30 @@ input[type=text] {
     font-size: 23px;
     background: transparent;
     position: relative;
-    border-radius: 40px;
+    border-radius: 5px;
     cursor: pointer;
-    color: rgb(36, 166, 240);
+    background-color: rgb(36, 166, 240);
 }
 .row-5 button:hover{
     background: rgb(36, 166, 240);
     transition: 1s;
     color: white;
 }
-
+.last-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.icons-footer .fa{
+    color:rgb(36, 166, 240) ;
+font-size: 40px;
+}
+.icons-footer{
+    justify-content: space-evenly;
+}
+.last-footer h2{
+    font-size: 25px;
+    color: rgb(68, 64, 64);
+}
