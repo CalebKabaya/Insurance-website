@@ -502,4 +502,36 @@ input[type=text] {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.row-5 p{
+    color: rgb(47, 44, 44);
+    font-size: 20px;
+}
+.consult{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.row-5 h2{
+    color: rgb(32, 31, 31);
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.row-5 button{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    border-radius: 40px;
+    cursor: pointer;
+    color: rgb(36, 166, 240);
+}
+.row-5 button:hover{
+    background: rgb(36, 166, 240);
+    transition: 1s;
+    color: white;
+}
 
