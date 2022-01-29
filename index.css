@@ -38,15 +38,15 @@ nav ul li {
 	text-decoration: none;
 	position: relative;
 }
-#navbaritems a{
+.navlinks a{
     color:white;
     text-decoration: none;
 }
-#navbaritems a:hover{
+.navlinks a:hover{
 	color: rgb(0, 0, 0);
 	transition: .9s;
 }
-#navbaritems a:after{
+.navlinks a:after{
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -56,7 +56,7 @@ nav ul li {
 	-webkit-transition:transform 250ms;
 	transition: transform 250ms;
 }
-#navbaritems a:hover:after{
+.navlinks a:hover:after{
 	width: 100%;
 }
 .login{
@@ -131,15 +131,16 @@ nav .fa{
     nav ul li{
         display: block;
     }
-    #navbaritems{
+    .navlinks{
         position: absolute;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -400px;
+        right: -200px;
         text-align: left;
         z-index: 2;
-        background: lightcoral;
+        background: chocolate;
+    
     }
     nav .fa{
         display: block;
@@ -148,11 +149,14 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
     }
-    #navbaritems{
+    .navlinks{
         padding: 30px;
     }
     .login{
         display: none;
+    }
+    .bunner{
+        font-size: 30px;
     }
 }
 

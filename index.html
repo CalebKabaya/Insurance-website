@@ -16,14 +16,15 @@
                     <h2>BrandName</h2>
                 </div>
                 <nav>
+                    <div class="navlinks" id="navlink"> 
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul id="navbaritems">
-                        <i class="fa fa-times" onclick="hideMenu()"></i>
-
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#Products">Products</a></li>
                         <li><a href="#Pricing">Pricing</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
+                </div>
                     <i class="fa fa-bars" onclick="hideMenu()"></i>
                 </nav>
                 <div class="login">
@@ -45,5 +46,15 @@
             </div>
         </div>
     </div>
+<!--------js for small screen----------->
+<script>
+    var  navlink = document.getElementById("nav-link");
+    function showMenu(){
+        navlink.style.right = "0"
+    }
+    function hideMenu(){
+        navlink.style.right = "-200px"
+    }
+</script>
 </body>
 </html>
