@@ -310,6 +310,7 @@ margin: 100px;
 display: flex;
 justify-content: space-between;
 background-image: linear-gradient(to right, #143072, #9c28d4, #cd00ab, #e40082, #eb125e);
+flex-wrap: wrap;
 }
 .subscribe .news{
 align-self: flex-start;
