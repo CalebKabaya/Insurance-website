@@ -396,7 +396,8 @@ font-size: 30px;
 .button-2 .btn:hover{
     transition: 1s;
 }
-.branches{
+/*-----branches------*/
+.sub-branch{
     display: flex;
     background:#252b42 ;
     justify-content: space-around;
