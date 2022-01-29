@@ -195,3 +195,7 @@ nav .fa{
 	color: rgb(3, 0, 0);
 	font-size: 39px;
 }
+.col-3 .fa{
+    font-size: 50px;
+    color: rgb(36, 166, 240);
+}
