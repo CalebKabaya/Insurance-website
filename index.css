@@ -165,13 +165,11 @@ nav .fa{
         margin: auto;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: -160px;
-        z-index: 2;
 }
 .col-3{
     flex: 1;
     border: 1px solid #666;
-    margin: 70px;
+    margin: 20px;
     padding: 60px;
     background: #fff;
     transition: 0.3s;
@@ -179,6 +177,7 @@ nav .fa{
     cursor: pointer;
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.1);
     border-radius: 5px;
+    z-index: 2;
 }
 .col-3:hover{
     background: rgb(36, 166, 240);
@@ -197,5 +196,39 @@ nav .fa{
 }
 .col-3 .fa{
     font-size: 50px;
+    color: rgb(36, 166, 240);
+}
+/*------service section 2--------*/
+.container-4{
+    display: flex;
+        margin: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+}
+.col-4{
+    flex: 1;
+    border:none;
+    margin: 20px;
+    padding: 60px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    z-index: 2;
+}
+.col-4 p{
+	font-size: 15px;
+	margin: 12px 0;
+	color: rgb(49, 46, 46);
+}
+.col-4 h2{
+	font-weight: 600;
+	color: rgb(3, 0, 0);
+	font-size: 30px;
+}
+.col-4 .fa{
+    font-size: 40px;
     color: rgb(36, 166, 240);
 }
