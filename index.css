@@ -302,3 +302,28 @@ justify-content: space-around;
         transform: translateY(-15px);
          transition: transfom.3s;
 }
+/*------subscribe----*/
+.subscribe{
+    border: 1px solid #666;
+    padding: 50px;
+margin: 100px;
+display: flex;
+justify-content: space-between;
+background-image: linear-gradient(to right, #004bf6, #9c28d4, #cd00ab, #e40082, #eb125e);
+}
+.subscribe .news{
+align-self: flex-start;
+}
+.subscribe .email{
+    display: flex;
+font-size: 30px;
+}
+.email h3{
+    background:rgb(36, 166, 240);
+    padding: 15px;
+    color:#fff;
+}
+.news h2{
+    font-size: 36px;
+    color: #fff;
+}
