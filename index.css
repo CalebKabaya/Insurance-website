@@ -401,8 +401,9 @@ font-size: 30px;
     display: flex;
     background:#252b42 ;
     justify-content: space-around;
-    height: 80vh;
+    height: 100vh;
     padding: 60px;
+    flex-wrap: wrap;
 }
 .col-10 h2,p{
     color: white;
@@ -419,3 +420,62 @@ font-size: 30px;
 .col-10 img{
     font-size: 10px;
 }
+.bappontmet{
+    display: flex;
+    width: 60%;
+    position: relative;
+    top: -500px;
+    left: 20%;
+    background: white;
+    flex-wrap: wrap;
+}
+.bappontmet img{
+    height: 80vh;
+}
+.contact{
+    padding-left: 40px;
+    justify-content: space-around;
+}
+.contact h2{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.contact input{
+    font-size: 20px;
+    padding: 40px;
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+    padding-bottom: 30px;
+}
+form{
+    margin: 40px;
+}
+label{
+    font-size: 29px;
+    padding: 30px;
+}
+.contact button{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    border-radius: 40px;
+    cursor: pointer;
+    justify-content: center;
+    color: white;
+    background: rgb(36, 166, 240);
+    margin: 50px;
+    width: 100%;
+
+}
+.contact button:hover{
+    background-color: rgb(110, 173, 224);
+    transition: 1s;
+}
+
