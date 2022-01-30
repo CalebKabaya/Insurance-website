@@ -402,12 +402,13 @@ font-size: 30px;
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 5px;
 }
 .row-1{
     flex: 1;
     border: 1px solid #666;
-    margin: 120px;
-    padding: 60px;
+    margin: 120px 15px;
+    padding: 60px 5px;
     background: #fff;
     transition: 0.3s;
     text-align: center;
@@ -426,6 +427,10 @@ font-size: 30px;
 .fa-icons ul{
     list-style-type: none;
 }
+.fa-icons ul li{
+    font-size: 20px;
+    margin: 20px;
+}
 .row-1 h2{
     font-size: 40px;
     padding: 20px;
@@ -437,10 +442,17 @@ font-size: 30px;
 }
 .row-1 p{
     font-size: 20px;
+    color: rgb(24, 22, 22);
 }
 .fa-icons .fa{
-    font-size: 27px;
+    font-size: 30px;
     color: green;
+    padding: 9px;
+    text-align: justify;
+}
+.fa-icons2 .fa{
+    font-size: 30px;
+    color: gray;
     padding: 9px;
     text-align: justify;
 }
