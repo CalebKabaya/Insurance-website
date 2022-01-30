@@ -138,22 +138,28 @@ nav ul li {
 }
 nav .fa{
     display: none;
+    cursor: pointer;
 }
 /*------media query-----*/
 @media (max-width:100px){
    
 }
 @media (max-width:940px){
+    body{
+        overflow-x: hidden;
+        position: relative;
+    }
+    .navbar{
+        justify-content: start;
+    }
     nav ul{
         position: fixed;
         top: 80px;
         left: 0;
-        background: #111;
         height: 100vh;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        
+
     }
     nav ul li{
          margin: 40px 0;
@@ -166,8 +172,58 @@ nav .fa{
         color: rgb(0, 0, 0);
         transition: .9s;
     }
-   
+    .col-1 h2{
+        font-size:45px;
+        line-height: 60px;
+        margin: 25px 0;
+        color: white;
 }
+    .col-1 p{
+    font-size:15px;
+    line-height: 40px;
+    margin: 25px 0;
+    justify-content: center;
+    color: white;
+}
+/*-----services--------*/
+    .container-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*-----our team*/
+.members{
+    flex-wrap: wrap;
+}
+/*-----partners--------*/
+.partners{
+    flex-wrap: wrap;
+    padding: 40px;
+}
+/*-----branches------*/
+.branches{
+    flex-wrap: wrap;
+}
+.sub-branch{
+    flex-wrap: wrap;
+}
+.bappontmet{
+    flex-wrap: wrap;
+
+}
+/*-----footer*/
+.consult{
+    flex-wrap: wrap;
+    display: none;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+}
+/*-----End of media query--------*/
+
+
 /*-----services--------*/
 .container-3{
     display: flex;
