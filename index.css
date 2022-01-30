@@ -161,19 +161,15 @@ height: 21px;
 }
 
 /*------media query-----*/
-@media (max-width:100px){
-   
-}
 @media (max-width:900px){
     body{
         width:100%;
-        overflow-x:hidden;
+        overflow-x: hidden;
     }
     .toggle-button{
         display: flex;
     }
     .navlinks{
-        display: none;
         width: 100%;
     }
     .navbar{
@@ -182,9 +178,10 @@ height: 21px;
 
     }
     #navbaritems{
-        background-color: #eb125e;   
         flex-direction:column;
         width: 100%;
+        margin: 40px;
+        align-items: flex-start;
     }
     #navbaritems li{
         text-align: center;
@@ -243,6 +240,11 @@ height: 21px;
     display: flex;
     flex-direction: column;
 }
+/*-----pricing*/
+
+.row{
+    flex-direction: column;
+}
 /*-----our team*/
 .members{
     flex-wrap: wrap;
@@ -255,27 +257,54 @@ height: 21px;
 /*-----branches------*/
 .branches{
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+
+   
 }
 .sub-branch{
     flex-wrap: wrap;
+   
+}
+.col-10 img{
+    width: 100%;
 }
 .bappontmet{
     flex-wrap: wrap;
+position: relative;
+margin-top: 90px;
+flex-direction: column;
+
 
 }
+.bappontmet img{
+    display: none;
+}
+
 /*-----footer*/
 .consult{
     flex-wrap: wrap;
-    display: none;
+    flex-direction: column;
+text-align: center;
+margin: 50px;
+font-size: 15px;
 }
 .footer-1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 .container-3{
     display: flex;
     flex-direction: column;
+}
+.last-footer{
+    flex-wrap: wrap;
+    flex-direction: column;
+text-align: center;}
+.last-footer h2{
+    font-size: 5px;
 }
 }
 /*-----End of media query--------*/
