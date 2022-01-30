@@ -335,7 +335,8 @@ text-align: center;}
 }
 .col-3:hover{
     background: rgb(36, 166, 240);
-    color: black;
+    color: #fff;
+   
 }
 .col-3 p{
 	font-size: 20px;
@@ -345,12 +346,17 @@ text-align: center;}
 .col-3 h2{
 	font-weight: 600;
 	color: rgb(3, 0, 0);
-	font-size: 39px;
+	font-size: 33px;
 }
 .col-3 .fa{
     font-size: 50px;
     color:rgb(36, 166, 240) ;
 }
+.col-3 .fa:hover{
+    font-size: 50px;
+    color:white ;
+}
+
 /*------service section 2--------*/
 .container-4{
     display: flex;
@@ -678,8 +684,7 @@ input[type=text] {
     color: rgb(47, 44, 44);
     font-size: 20px;
 }
-.footer-col-1{
-}
+
 .footer-col-1 .fa{
     color:rgb(36, 166, 240) ;
     font-size: 35px;
