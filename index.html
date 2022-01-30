@@ -17,7 +17,11 @@
                     <h2>BrandName</h2>
                 </div>
                 <nav>
-                    <i class="fa fa-bars" onclick="hideMenu()"></i>
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
                     <div class="navlinks" id="navlink"> 
                     <ul id="navbaritems">
                         <li><a href="#Home">Home</a></li>
@@ -26,7 +30,6 @@
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
-                    <i class="fa fa-bars" onclick="hideMenu()"></i>
                 </nav>
                 <div class="login">
                     <h2>Login</h2>
@@ -330,10 +333,14 @@
     </div>
 
 </div>
+<script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navLinks =document.getElementsByClassName('navlinks')[0]
 
-
-
-
+    toggleButton.addEventListener('click',() => {
+        navLinks.classList.toggle('active')
+    })
+</script>
 
 <!--------js for small screen-----------
 <script>
