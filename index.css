@@ -139,37 +139,34 @@ nav ul li {
 nav .fa{
     display: none;
 }
-@media(max-width:700px){
-    nav ul li{
-        display: block;
-    }
-    .navlinks{
-        position: absolute;
+/*------media query-----*/
+@media (max-width:100px){
+   
+}
+@media (max-width:940px){
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        background: #111;
         height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        background: chocolate;
-    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
-    nav .fa{
+    nav ul li{
+         margin: 40px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
         display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
     }
-    .navlinks{
-        padding: 30px;
+    .navlinks a:hover{
+        color: rgb(0, 0, 0);
+        transition: .9s;
     }
-    .login{
-        display: none;
-    }
-    .bunner{
-        font-size: 30px;
-    }
+   
 }
 /*-----services--------*/
 .container-3{

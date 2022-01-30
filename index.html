@@ -17,8 +17,8 @@
                     <h2>BrandName</h2>
                 </div>
                 <nav>
+                    <i class="fa fa-bars" onclick="hideMenu()"></i>
                     <div class="navlinks" id="navlink"> 
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul id="navbaritems">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#Products">Products</a></li>
@@ -329,15 +329,20 @@
 
 
 
-<!--------js for small screen----------->
+<!--------js for small screen-----------
 <script>
-    var  navlink = document.getElementById("nav-link");
-    function showMenu(){
-        navlink.style.right = "0"
-    }
+    var navlink = document.getElementById("navlink");
+    navlink.style.maxHeight ="0px";
+    
     function hideMenu(){
-        navlink.style.right = "-200px"
-    }
+        if (navlink.style.maxHeight =="0px")
+        {
+            navlink.style.maxHeight =="130px";
+        }
+        else{
+            navlink.style.maxHeight =="0px";
+        }
+    }--------------->
 </script>
 </body>
 </html>
